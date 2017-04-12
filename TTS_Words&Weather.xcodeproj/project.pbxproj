@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C5D61161E95A9AF00A234FF /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5D61151E95A9AF00A234FF /* SwiftyJSON.swift */; };
+		3C800EDE1E89C48E00352162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C800EDD1E89C48E00352162 /* AppDelegate.swift */; };
+		3C800EE31E89C48E00352162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C800EE11E89C48E00352162 /* Main.storyboard */; };
+		3C800EE51E89C48E00352162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C800EE41E89C48E00352162 /* Assets.xcassets */; };
+		3C800EE81E89C48E00352162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C800EE61E89C48E00352162 /* LaunchScreen.storyboard */; };
+		3C800EF01E89C4CD00352162 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C800EEF1E89C4CD00352162 /* LoginVC.swift */; };
+		3C800EF21E89C90900352162 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C800EF11E89C90900352162 /* LoginVM.swift */; };
+		3C800EF41E89D18A00352162 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C800EF31E89D18A00352162 /* Constants.swift */; };
+		3C800EF61E89D5A000352162 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C800EF51E89D5A000352162 /* KeychainService.swift */; };
+		3C800EF81E8B5BFC00352162 /* AccountManagerTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C800EF71E8B5BFC00352162 /* AccountManagerTableVC.swift */; };
+		3C800EFA1E8B5E3200352162 /* AccountManagerTableVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C800EF91E8B5E3200352162 /* AccountManagerTableVM.swift */; };
+		3C800EFC1E8C6E3200352162 /* AddAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C800EFB1E8C6E3200352162 /* AddAccountVC.swift */; };
+		3C800EFE1E8C6E4400352162 /* AddAccountVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C800EFD1E8C6E4400352162 /* AddAccountVM.swift */; };
+		3C800F001E8C715A00352162 /* AccountManagerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C800EFF1E8C715A00352162 /* AccountManagerTableViewCell.swift */; };
+		3C800F9E1E94865100352162 /* Accounts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C800F9C1E94865100352162 /* Accounts.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C5D61151E95A9AF00A234FF /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		3C800EDA1E89C48E00352162 /* TTS_Words&Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TTS_Words&Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C800EDD1E89C48E00352162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C800EE21E89C48E00352162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C800EE41E89C48E00352162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C800EE71E89C48E00352162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C800EE91E89C48E00352162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C800EEF1E89C4CD00352162 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		3C800EF11E89C90900352162 /* LoginVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		3C800EF31E89D18A00352162 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3C800EF51E89D5A000352162 /* KeychainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		3C800EF71E8B5BFC00352162 /* AccountManagerTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountManagerTableVC.swift; sourceTree = "<group>"; };
+		3C800EF91E8B5E3200352162 /* AccountManagerTableVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountManagerTableVM.swift; sourceTree = "<group>"; };
+		3C800EFB1E8C6E3200352162 /* AddAccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAccountVC.swift; sourceTree = "<group>"; };
+		3C800EFD1E8C6E4400352162 /* AddAccountVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAccountVM.swift; sourceTree = "<group>"; };
+		3C800EFF1E8C715A00352162 /* AccountManagerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountManagerTableViewCell.swift; sourceTree = "<group>"; };
+		3C800F9D1E94865100352162 /* Accounts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Accounts.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C800ED71E89C48E00352162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C800ED11E89C48E00352162 = {
+			isa = PBXGroup;
+			children = (
+				3C800EDC1E89C48E00352162 /* TTS_Words&Weather */,
+				3C800EDB1E89C48E00352162 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C800EDB1E89C48E00352162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C800EDA1E89C48E00352162 /* TTS_Words&Weather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C800EDC1E89C48E00352162 /* TTS_Words&Weather */ = {
+			isa = PBXGroup;
+			children = (
+				3C800EDD1E89C48E00352162 /* AppDelegate.swift */,
+				3C800EEF1E89C4CD00352162 /* LoginVC.swift */,
+				3C800EF11E89C90900352162 /* LoginVM.swift */,
+				3C800EF31E89D18A00352162 /* Constants.swift */,
+				3C800EF51E89D5A000352162 /* KeychainService.swift */,
+				3C800EF71E8B5BFC00352162 /* AccountManagerTableVC.swift */,
+				3C800EF91E8B5E3200352162 /* AccountManagerTableVM.swift */,
+				3C800EFF1E8C715A00352162 /* AccountManagerTableViewCell.swift */,
+				3C800EE11E89C48E00352162 /* Main.storyboard */,
+				3C800EE41E89C48E00352162 /* Assets.xcassets */,
+				3C800EE61E89C48E00352162 /* LaunchScreen.storyboard */,
+				3C800EE91E89C48E00352162 /* Info.plist */,
+				3C800EFB1E8C6E3200352162 /* AddAccountVC.swift */,
+				3C800EFD1E8C6E4400352162 /* AddAccountVM.swift */,
+				3C5D61151E95A9AF00A234FF /* SwiftyJSON.swift */,
+				3C800F9C1E94865100352162 /* Accounts.xcdatamodeld */,
+			);
+			path = "TTS_Words&Weather";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C800ED91E89C48E00352162 /* TTS_Words&Weather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C800EEC1E89C48E00352162 /* Build configuration list for PBXNativeTarget "TTS_Words&Weather" */;
+			buildPhases = (
+				3C800ED61E89C48E00352162 /* Sources */,
+				3C800ED71E89C48E00352162 /* Frameworks */,
+				3C800ED81E89C48E00352162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TTS_Words&Weather";
+			productName = "TTS_Words&Weather";
+			productReference = 3C800EDA1E89C48E00352162 /* TTS_Words&Weather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C800ED21E89C48E00352162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = 1umbrella;
+				TargetAttributes = {
+					3C800ED91E89C48E00352162 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 935M3EWSDR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3C800ED51E89C48E00352162 /* Build configuration list for PBXProject "TTS_Words&Weather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C800ED11E89C48E00352162;
+			productRefGroup = 3C800EDB1E89C48E00352162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C800ED91E89C48E00352162 /* TTS_Words&Weather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C800ED81E89C48E00352162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C800EE81E89C48E00352162 /* LaunchScreen.storyboard in Resources */,
+				3C800EE51E89C48E00352162 /* Assets.xcassets in Resources */,
+				3C800EE31E89C48E00352162 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C800ED61E89C48E00352162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C800EFA1E8B5E3200352162 /* AccountManagerTableVM.swift in Sources */,
+				3C800EF01E89C4CD00352162 /* LoginVC.swift in Sources */,
+				3C800EDE1E89C48E00352162 /* AppDelegate.swift in Sources */,
+				3C5D61161E95A9AF00A234FF /* SwiftyJSON.swift in Sources */,
+				3C800EF21E89C90900352162 /* LoginVM.swift in Sources */,
+				3C800EFC1E8C6E3200352162 /* AddAccountVC.swift in Sources */,
+				3C800EFE1E8C6E4400352162 /* AddAccountVM.swift in Sources */,
+				3C800EF81E8B5BFC00352162 /* AccountManagerTableVC.swift in Sources */,
+				3C800F001E8C715A00352162 /* AccountManagerTableViewCell.swift in Sources */,
+				3C800F9E1E94865100352162 /* Accounts.xcdatamodeld in Sources */,
+				3C800EF61E89D5A000352162 /* KeychainService.swift in Sources */,
+				3C800EF41E89D18A00352162 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C800EE11E89C48E00352162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C800EE21E89C48E00352162 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C800EE61E89C48E00352162 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C800EE71E89C48E00352162 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C800EEA1E89C48E00352162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C800EEB1E89C48E00352162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C800EED1E89C48E00352162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 935M3EWSDR;
+				INFOPLIST_FILE = "TTS_Words&Weather/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tdixonumbrella.TTS-Words-Weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3C800EEE1E89C48E00352162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 935M3EWSDR;
+				INFOPLIST_FILE = "TTS_Words&Weather/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tdixonumbrella.TTS-Words-Weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C800ED51E89C48E00352162 /* Build configuration list for PBXProject "TTS_Words&Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C800EEA1E89C48E00352162 /* Debug */,
+				3C800EEB1E89C48E00352162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C800EEC1E89C48E00352162 /* Build configuration list for PBXNativeTarget "TTS_Words&Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C800EED1E89C48E00352162 /* Debug */,
+				3C800EEE1E89C48E00352162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C800F9C1E94865100352162 /* Accounts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C800F9D1E94865100352162 /* Accounts.xcdatamodel */,
+			);
+			currentVersion = 3C800F9D1E94865100352162 /* Accounts.xcdatamodel */;
+			path = Accounts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C800ED21E89C48E00352162 /* Project object */;
+}
